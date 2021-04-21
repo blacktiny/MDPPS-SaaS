@@ -1,0 +1,37 @@
+.submenulist {
+  color: #b6d0fd;
+  font-size: 0.938rem;
+  padding: 0.406rem 0;
+  text-align: left;
+  position: relative;
+  &.has-subemnu {
+    .dd-icon {
+      position: absolute;
+      right: 0.625rem;
+      transform: rotate(90deg);
+      font-size: 0.5rem;
+      top: 0.813rem;
+      margin: auto;
+      display: inline-block;
+      height: 0.5rem;
+      width: 0.25rem;
+      transition: 0.2s;
+      transition-timing-function: linear;
+    }
+    &.expanded {
+      .dd-icon {
+        transform: rotate(-90deg) !important;
+        transition: 200ms !important;
+        transition-timing-function: linear !important;
+      }
+      .sidebar-sub-submenu {
+        max-height: 200px;
+        transition-timing-function: linear;
+      }
+    }
+  }
+}
+
+.activeMenu {
+  color: #3be051;
+}

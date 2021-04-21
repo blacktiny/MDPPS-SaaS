@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should look as expected in the DISABLED state 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  border: 3px solid transparent;
+  font-weight: 700;
+  line-height: calc(1.2625rem + 0.09375vw);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #4284FC;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1607843137254902);
+  color: #FFFFFF;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.022rem;
+  -moz-letter-spacing: 0.022rem;
+  -ms-letter-spacing: 0.022rem;
+  letter-spacing: 0.022rem;
+  padding: 0.875rem 2.5rem;
+  box-shadow: none;
+  background-color: #F2F2F2 !important;
+  color: #AAB8C2 !important;
+  opacity: 1 !important;
+  border: none;
+}
+
+.emotion-0:hover {
+  background-color: #3469C7 !important;
+}
+
+.emotion-0:focus {
+  border-color: #B6D0FD;
+  background-color: #4284FC !important;
+  outline: 0;
+  border-radius: 7px;
+}
+
+.emotion-0:focus.emotion-0:active {
+  box-shadow: none;
+  background-color: #1E3E75 !important;
+  border-radius: 5px;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  background-color: #F2F2F2 !important;
+}
+
+<body>
+  <div>
+    <button
+      class="rs-btn rs-btn-primary emotion-0 rs-btn-disabled"
+      disabled=""
+      type="button"
+    >
+      my test content
+      <span
+        class="rs-ripple-pond"
+      >
+        <span
+          class="rs-ripple"
+        />
+      </span>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`should look as expected in the DISABLED state with Secondary Attribute 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  border: 3px solid transparent;
+  font-weight: 700;
+  line-height: calc(1.2625rem + 0.09375vw);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #FFFFFF;
+  border-color: #F2F2F2;
+  color: #98a0ac;
+  font-size: 1.125rem;
+  padding: 0.84375rem 2.5rem;
+  border-width: 1px;
+  box-shadow: none;
+  background-color: #F2F2F2 !important;
+  color: #AAB8C2 !important;
+  opacity: 1 !important;
+  border: none;
+}
+
+@media (min-width:1290px) {
+  .emotion-0 {
+    border-width: 0.5px;
+  }
+}
+
+.emotion-0:hover {
+  background-color: #F9F9FA;
+}
+
+.emotion-0:focus {
+  border-color: #B6D0FD;
+  background-color: #FFFFFF !important;
+  outline: 0;
+}
+
+.emotion-0:active {
+  background-color: #AAB8C2 !important;
+  border: solid #F2F2F2;
+  color: #FFFFFF !important;
+  padding: inherit;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  background-color: #F2F2F2 !important;
+}
+
+<body>
+  <div>
+    <button
+      class="rs-btn rs-btn-default emotion-0 rs-btn-disabled"
+      disabled=""
+      secondary="true"
+      type="button"
+    >
+      my test content
+      <span
+        class="rs-ripple-pond"
+      >
+        <span
+          class="rs-ripple"
+        />
+      </span>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`should look as expected in the NORMAL state 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  border: 3px solid transparent;
+  font-weight: 700;
+  line-height: calc(1.2625rem + 0.09375vw);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #4284FC;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1607843137254902);
+  color: #FFFFFF;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.022rem;
+  -moz-letter-spacing: 0.022rem;
+  -ms-letter-spacing: 0.022rem;
+  letter-spacing: 0.022rem;
+  padding: 0.875rem 2.5rem;
+}
+
+.emotion-0:hover {
+  background-color: #3469C7 !important;
+}
+
+.emotion-0:focus {
+  border-color: #B6D0FD;
+  background-color: #4284FC !important;
+  outline: 0;
+  border-radius: 7px;
+}
+
+.emotion-0:focus.emotion-0:active {
+  box-shadow: none;
+  background-color: #1E3E75 !important;
+  border-radius: 5px;
+}
+
+<body>
+  <div>
+    <button
+      class="rs-btn rs-btn-primary emotion-0"
+      type="button"
+    >
+      my test content
+      <span
+        class="rs-ripple-pond"
+      >
+        <span
+          class="rs-ripple"
+        />
+      </span>
+    </button>
+  </div>
+</body>
+`;
+
+exports[`should look as expected in the NORMAL state with Secondary Attribute 1`] = `
+.emotion-0 {
+  border-radius: 4px;
+  border: 3px solid transparent;
+  font-weight: 700;
+  line-height: calc(1.2625rem + 0.09375vw);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #FFFFFF;
+  border-color: #F2F2F2;
+  color: #98a0ac;
+  font-size: 1.125rem;
+  padding: 0.84375rem 2.5rem;
+  border-width: 1px;
+}
+
+@media (min-width:1290px) {
+  .emotion-0 {
+    border-width: 0.5px;
+  }
+}
+
+.emotion-0:hover {
+  background-color: #F9F9FA;
+}
+
+.emotion-0:focus {
+  border-color: #B6D0FD;
+  background-color: #FFFFFF !important;
+  outline: 0;
+}
+
+.emotion-0:active {
+  background-color: #AAB8C2 !important;
+  border: solid #F2F2F2;
+  color: #FFFFFF !important;
+  padding: inherit;
+}
+
+<body>
+  <div>
+    <button
+      class="rs-btn rs-btn-default emotion-0"
+      secondary="true"
+      type="button"
+    >
+      my test content
+      <span
+        class="rs-ripple-pond"
+      >
+        <span
+          class="rs-ripple"
+        />
+      </span>
+    </button>
+  </div>
+</body>
+`;

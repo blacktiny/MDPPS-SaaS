@@ -1,0 +1,40 @@
+.phonenumberwithcode-label {
+  .react-tel-input {
+    font-size: 1.125rem;
+    letter-spacing: 0.45px;
+    input:disabled {
+      &::placeholder {
+        font-size: 1rem;
+        color: #aaa;
+      }
+    }
+  }
+  &.phonnumberempty {
+    .react-tel-input {
+      input:disabled {
+        background-image: url('../../../assets/images/placeholder-flag.svg');
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: 24px;
+      }
+    }
+  }
+  .react-tel-input {
+    input {
+      cursor: inherit;
+      color: #4284fc;
+      font-size: 1.125rem;
+      letter-spacing: 0.45px;
+      border: none;
+      padding-left: 2.188rem;
+      height: auto;
+    }
+    .flag-dropdown {
+      border: none;
+      background-color: transparent;
+      .arrow {
+        display: none;
+      }
+    }
+  }
+}

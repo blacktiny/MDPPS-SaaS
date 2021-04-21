@@ -1,0 +1,63 @@
+/*
+  Component: DatePicker
+*/
+.rs-picker-toggle-value {
+  color: black !important;
+  font-weight: 400 !important;
+}
+
+.rs-picker-toggle-caret {
+  top: 0.625rem !important;
+  left: 12px !important;
+  color: #4284fc;
+  font-size: 1.2rem !important;
+}
+
+.rs-picker-toolbar {
+  display: none;
+}
+
+/*
+  Component: DatePicker
+*/
+textarea.rs-input {
+  background: #F9F9FA !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px !important;
+  font-size: 0.75rem !important;
+  transition: all 0.5s ease-in-out !important;
+  color: #000000 !important;
+  padding: 0.625rem 1.25rem !important;
+
+  &:hover {
+    background: #F2F2F2 !important;
+    border-color: transparent !important;
+  }
+
+  &:active, &:focus {
+    border: 1px solid #4284FC !important;
+    background: #FFFFFF !important;
+  }
+}
+
+.rs-picker-date-menu {
+  min-width: 280px;
+}
+
+.rs-calendar-table-cell-selected,
+.rs-calendar-table-cell-is-today {
+  .rs-calendar-table-cell-content {
+    border-radius: 50%;
+  }
+}
+
+.rs-calendar-header {
+  &::after {
+    content: '';
+    width: calc(100% + 24px);
+    height: 1px;
+    margin: 0 -12px 0.5rem;
+    padding: 0.5rem 0 0;
+    border-bottom: 1px solid grey;
+  }
+}

@@ -1,0 +1,45 @@
+.menu-disabled {
+  label.control-label {
+    color: #14171a;
+  }
+  .react-tel-input {
+    pointer-events: none;
+    input {
+      color: #d7d7d7 !important;
+      background-color: #f0f0f0 !important;
+    }
+  }
+}
+
+.active-menu-icon {
+  color: #2d3136 !important;
+}
+
+.businessMenu {
+  transform: translate(-10px, 9px) !important;
+  filter: drop-shadow(0 1px 8px rgba(0, 0, 0, 0.12)) !important;
+  .rs-popover-content {
+    transition: 0.3s !important;
+    box-shadow: none;
+    min-width: 13.938rem;
+    .rs-dropdown-item {
+      .rs-dropdown-item-content {
+        font-size: 1rem;
+        color: #565456;
+        height: 3.75rem;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1.25rem;
+        &:hover {
+          color: #4284fc !important;
+          p {
+            color: #4284fc !important;
+          }
+          i {
+            color: #4284fc !important;
+          }
+        }
+      }
+    }
+  }
+}

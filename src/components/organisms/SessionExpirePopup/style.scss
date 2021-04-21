@@ -1,0 +1,25 @@
+.rs-modalrs-modal-wrapper {
+  overflow: hidden !important;
+  .session-expire-modal {
+    margin-top: 0 !important;
+    .rs-modal-body {
+      margin-top: 0;
+    }
+    .rs-modal-content {
+      padding: 2.5rem;
+      width: 34.5rem !important;
+      border-radius: 0.5rem;
+    }
+  }
+  .session-expire-logout-modal {
+    margin-top: 0 !important;
+    .rs-modal-body {
+      margin-top: 0;
+    }
+    .rs-modal-content {
+      padding: 2.5rem;
+      width: 34.5rem !important;
+      border-radius: 0.5rem;
+    }
+  }
+}

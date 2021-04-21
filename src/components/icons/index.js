@@ -1,0 +1,15 @@
+export { default as CameraIcon } from './CameraIcon';
+export { default as CheckCirIcon } from './CheckCirIcon';
+export { default as CloseIcon } from './CloseIcon';
+export { default as CloseBigIcon } from './CloseBigIcon';
+export { default as LogoutIcon } from './LogoutIcon';
+export { default as BrandIcon } from './BrandIcon';
+export { default as PortfolioIcon } from './PortfolioIcon';
+export { default as SearchIcon } from './SearchIcon';
+export { default as UploadIcon } from './UploadIcon';
+export { default as UploadBigIcon } from './UploadBigIcon';
+export { default as UserIcon } from './UserIcon';
+export { default as UserBigIcon } from './UserBigIcon';
+export { default as QuestionIcon } from './QuestionIcon';
+export { default as PlaceIcon } from './PlaceIcon';
+export { default as PhoneIcon } from './PhoneIcon';

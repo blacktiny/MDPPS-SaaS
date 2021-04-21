@@ -1,0 +1,80 @@
+.change-email-address-popup,
+.change-phone-number-popup {
+  width: 34.38rem;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  .rs-modal-content {
+    border-radius: 8px;
+    padding: 2.5rem;
+  }
+
+  .rs-modal-body {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .rs-modal-header{
+    img {
+      width: 30px;
+      height: 30px;
+      padding: 4px;
+      border-radius: 25px;
+      opacity: 0.5;
+    }
+  }
+}
+
+.popup-title {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.39px;
+  color: #14171A;
+  text-align: left;
+  line-height: 16px;
+  padding-bottom: 1.5rem;
+}
+
+.popup-content {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  color: #000000;
+  text-align: left;
+  line-height: 24px;
+  padding-bottom: 1rem;
+}
+
+.popup-footer {
+  display: flex;
+  justify-content: flex-end;
+
+  .btn {
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0.4rem 1.375rem !important;
+
+    &.actionbtn {
+      margin-left: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .change-email-address-popup {
+    width: 90%;
+  }
+}
