@@ -1,0 +1,310 @@
+.menu-user-name {
+  width: 160px;
+  font-size: 1rem;
+  font-family: Roboto-Bold;
+  color: #565456;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.user-desig {
+  color: #565456;
+  font-size: 0.875rem;
+  letter-spacing: 0.24px;
+}
+
+.menu-back-button {
+  height: 1.375rem;
+  padding: 0.313rem;
+  background-color: #f5f8fa;
+  border-radius: 1.25rem;
+  margin-right: 0.813rem;
+  width: 1.375rem;
+}
+
+.Usermenu {
+  box-shadow: none;
+  background-color: #fff;
+  top: 4rem !important;
+  width: 258px;
+  filter: drop-shadow(1px 1px 8px #00000029);
+  transform: translate(0px, 9px) !important;
+  margin-top: -5px !important;
+
+  &.onboarding {
+    top: 6.5rem !important;
+  }
+
+  .rs-popover-arrow {
+    top: -14px !important;
+  }
+
+  .rs-popover-arrow::after {
+    border-width: 14px;
+    border-left-width: 11px;
+    border-right-width: 11px;
+    margin-left: -20px !important;
+  }
+
+  .user-menu-popover {
+    opacity: 1 !important;
+  }
+
+  .rs-popover-content {
+    .rs-dropdown-menu {
+      .rs-dropdown-item {
+        min-width: 258px !important;
+        .rs-dropdown-item-content {
+          font-size: 0.875rem;
+          font-weight: 500;
+          color: #565456;
+          height: 3.25rem;
+          display: flex;
+          align-items: center;
+          padding: 0 1.25rem;
+          margin: 0.3125rem 0;
+          &:hover {
+            background-color: #f5f8fa;
+            span {
+              color: #4284fc !important;
+              transition: 0.3s;
+            }
+            .menu-user-name {
+              color: #565456 !important;
+            }
+            .user-desig {
+              color: #959395 !important;
+            }
+          }
+          .rs-avatar {
+            background-color: #f5f8fa !important;
+            margin-right: 0.938rem;
+            img {
+              width: 1.625rem;
+            }
+          }
+        }
+        &:first-child {
+          border-bottom: 1px solid #f4f5f8;
+          a {
+            min-height: 3rem;
+            height: fit-content;
+            padding: 0.5rem 0.75rem;
+          }
+          &:hover {
+            .rs-dropdown-item-content {
+              background-color: #fff;
+            }
+          }
+        }
+        .longmenu-icon {
+          padding-right: 1.563rem;
+        }
+        .switchuser {
+          padding-right: 1.563rem;
+        }
+        .icon-caret {
+          position: absolute;
+          right: 1.25rem;
+        }
+      }
+      .rs-dropdown-item-panel {
+        border-bottom: 1px solid #f4f5f8;
+        span {
+          padding-right: 0;
+        }
+      }
+      .rs-dropdown-item-divider {
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+}
+.filter-icon-color {
+  filter: invert(66%) sepia(7%) saturate(457%) hue-rotate(177deg)
+    brightness(96%) contrast(87%);
+}
+
+// rsuite dropdown
+.user-menu-popover {
+  padding: 6px 0 10px;
+
+  .rs-dropdown-item-content {
+    color: #575757 !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+    letter-spacing: 0.26px !important;
+    padding: 8px 20px !important;
+    margin: 0 !important;
+
+    p {
+      color: #555555;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      color: #B6D0FD;
+      padding-right: 0 !important;
+      margin-right: 10px;
+    }
+  }
+
+  [data-testid="LABEL_TEXT_USER_NAME"] {
+    height: 56px !important;
+  }
+
+  // Custom
+  .menu-item-location {
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 40px;
+    padding-left: 25px;
+
+    .icon {
+      font-size: 1.25rem;
+      color: #4284fc;
+      margin-right: 20px;
+    }
+
+    button {
+      align-self: center;
+      color: #4284fc;
+      font-weight: 500;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  .header-application-info {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #e5e5ea;
+    padding: 5px 0 10px 25px;
+
+    .header-application-info-text {
+      margin-left: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 6.9375rem;
+
+      .text {
+        font-size: 0.77rem;
+        font-weight: 500;
+        color: #000000;
+        line-height: 0.875rem;
+      }
+    }
+  }
+
+  .switch-account a {
+    height: 62px !important;
+    box-sizing: border-box;
+    background-color: white !important;
+
+    .icon-logo-blue-mdpps {
+      background-color: white;
+      border-radius: 3px;
+      font-size: 16px;
+      border: 1px solid #eff3f5;
+
+      &::before {
+        color: #dbdddf;
+      }
+    }
+
+    .menu-item-company-account {
+      width: calc(100% - 80px);
+
+      .account-info {
+        &-name {
+          color: #4284FC;
+        }
+        &-id {
+          color: #98A0AC;
+        }
+
+        p {
+          overflow: hidden; 
+          white-space: nowrap; 
+          text-overflow: ellipsis;
+        }
+
+        p + p {
+          margin-top: 3px;
+        }
+      }
+    }
+
+    .icon-caret {
+      right: 10px !important;
+      width: auto !important;
+      height: auto !important;
+      color: #4284fc !important;
+      font-size: 12px;
+    }
+  }
+
+  .selected a {
+    background-color: #eff3f5 !important;
+
+    .icon-logo-blue-mdpps {
+      border: 1px solid #eff3f5;
+    }
+
+    .menu-item-company-account {
+      position: relative;
+      width: calc(100% - 80px);
+
+      .account-info {
+        &-name {
+          color: #14171A;
+        }
+      }
+
+      .account-selected {
+        position: absolute;
+        right: -50px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 100%;
+
+        .icon-nav-check {
+          color: #3be051 !important;
+        }
+      }
+    }
+
+    &:hover {
+      .menu-item-company-account {
+        .account-selected {
+          .icon-nav-check {
+            color: #3be051 !important;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .menu-item-location,
+    .header-application-info {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.account-dialog {
+  max-width: 67.313rem !important;
+  max-height: 51.125rem !important;
+  background-color: #eff3f5;
+  width: 67.313rem !important;
+  height: 51.125rem !important;
+  border-radius: 0.5rem;
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto !important;
+  .rs-modal-dialog {
+    height: 100%;
+    .rs-modal-content {
+      background-color: transparent;
+      height: 100%;
+    }
+  }
+  .rs-modal-content {
+    box-shadow: none;
+    padding: 0;
+    .rs-modal-body {
+      max-height: 100% !important;
+      padding: 4.563rem 8.75rem 1.875rem;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 85.375rem) {
+  .account-dialog {
+    max-width: 90% !important;
+    max-height: 90% !important;
+    width: 90% !important;
+    height: 90% !important;
+    .rs-modal-content {
+    }
+    .rs-modal-content {
+      .rs-modal-body {
+        padding: 4.563rem 8.75rem 1.875rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-height: 50rem) {
+  .account-dialog {
+    height: 90% !important;
+  }
+}

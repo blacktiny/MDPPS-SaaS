@@ -1,0 +1,37 @@
+.deleteconformation-popup {
+  width: 34.38rem;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  .rs-modal-content {
+    border-radius: 8px;
+    padding: 2.5rem;
+  }
+
+  .rs-modal-body{
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .rs-modal-header{
+    img{
+      width: 20px;
+      height: 20px;
+      padding: 4px;
+      background-color: #f8f9fa;
+      border-radius: 25px;
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .deleteconformation-popup {
+    width: 90%;
+  }
+}

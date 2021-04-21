@@ -1,0 +1,27 @@
+.forgotyourpassword {
+  width: 588px;
+  height: 452px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  .rs-modal-content {
+    // height: 23.875rem;
+    // padding: 3.75rem 6.25rem 2.188rem;
+    padding: 0px 40px;
+    .rs-modal-header {
+      img {
+        right: 1.25rem;
+        top: 1.25rem;
+      }
+    }
+    .rs-modal-content {
+      margin: 0;
+    }
+    .rs-modal-footer {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.search-box {
+  border-radius: 0.313rem;
+  height: 3.125rem;
+  padding: 0.938rem 1.25rem;
+  background-color: #f5f8fa;
+  margin: 0.75rem;
+  display: flex;
+  align-items: center;
+  .icon-search {
+    color: #aab8c2;
+    margin-right: 0.625rem;
+    font-size: 1.25rem;
+  }
+  input {
+    &::placeholder {
+      color: #657786;
+    }
+  }
+}
+.search-box > span > img {
+  height: 1.25rem;
+  padding: 0.188rem 0.438rem 0.188rem 0.188rem;
+}
+
+.search-box > input {
+  width: calc(100% - 1.5rem);
+  border: none;
+  background-color: #f5f8fa;
+}
+.search-box > input:focus {
+  border: none;
+  outline: none;
+}

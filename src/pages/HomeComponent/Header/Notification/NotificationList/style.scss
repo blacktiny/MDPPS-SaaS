@@ -1,0 +1,98 @@
+.notification-list {
+  border-bottom: solid 0.031rem #f4f5f8;
+  min-height: 4.688rem;
+  display: flex !important;
+  align-items: center;
+  position: relative;
+  .notification-userpic {
+    margin-right: 0.5rem;
+    margin-left: 1.188rem;
+  }
+  &:hover {
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    button {
+      background-color: #fff;
+      transition: 0.3s;
+    }
+  }
+  div {
+    & > span:first-child {
+      color: #14171a;
+      font-size: 0.75rem;
+      letter-spacing: 0.014rem;
+      font-family: roboto;
+    }
+    .css-15l16vm {
+      font-size: 0.625rem;
+      color: #657786;
+      letter-spacing: 0.025rem;
+      font-family: Roboto;
+    }
+  }
+  button {
+    border-radius: 0.313rem !important;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #f9f9fa;
+    color: #98a0ac;
+  }
+  .notification-icon {
+    .icon-notification-read {
+      font-size: 0.125rem;
+    }
+  }
+  & > div {
+    display: flex;
+    justify-content: center;
+  }
+  & > span {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+  }
+}
+
+.notification-list {
+  &:hover {
+    .notification-icon {
+      background-color: #fff;
+    }
+  }
+}
+
+.notification-icon {
+  background-color: #f9f9fa;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.313rem;
+  .rs-dropdown-item-content {
+    text-transform: capitalize;
+  }
+}
+
+.notification-header {
+  //border-bottom: 0.5px solid #E1E8ED;
+  border-bottom: solid 0.5px #f4f5f8;
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 1.188rem !important;
+  .settings-title {
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .task-title {
+    cursor: pointer;
+  }
+}
+
+.notification-title {
+  font-size: 0.875rem;
+  font-family: Roboto-Bold;
+  color: #14171a;
+  letter-spacing: 0.39px;
+  cursor: default;
+}

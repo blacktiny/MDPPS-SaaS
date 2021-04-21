@@ -1,0 +1,14 @@
+.selectedoption-header {
+  color: #B6D0FD;
+}
+
+.selectedoption{
+  &>div:first-of-type{
+    span{
+      color: #4284fc;
+    }
+  }
+  .optionmenu {
+    color: #000 !important;
+  }
+}
