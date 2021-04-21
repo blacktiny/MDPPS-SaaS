@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  frontend:
+    build: .
+    container_name: mdpps-frontend
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
+      - /node_modules
+    ports:
+      - 3000:3000
+    command: >
+      bash -c "yarn && yarn start"
+  
+  storybook:
+    build: .
+    container_name: mdpps-storybook
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
+      - /node_modules
+    ports:
+      - 6006:6006
+    command: >
+      bash -c "yarn && yarn storybook"
+

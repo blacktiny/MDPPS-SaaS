@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" viewBox="0 0 50 60">
+  <g id="nav-tasks" transform="translate(-202 -237)">
+    <g id="Group_2614" data-name="Group 2614" transform="translate(-290 -447)">
+      <path id="Path_372" data-name="Path 372" d="M30,38.5v40A7.5,7.5,0,0,0,37.5,86h35A7.5,7.5,0,0,0,80,78.5v-40A7.5,7.5,0,0,0,72.5,31H70V28.5a2.5,2.5,0,0,0-5,0V31H57.5V28.5a2.5,2.5,0,0,0-5,0V31H45V28.5a2.5,2.5,0,0,0-5,0V31H37.5A7.5,7.5,0,0,0,30,38.5ZM42.5,41A2.5,2.5,0,0,0,45,38.5V36h7.5v2.5a2.5,2.5,0,0,0,5,0V36H65v2.5a2.5,2.5,0,0,0,5,0V36h2.5A2.5,2.5,0,0,1,75,38.5v40A2.5,2.5,0,0,1,72.5,81h-35A2.5,2.5,0,0,1,35,78.5v-40A2.5,2.5,0,0,1,37.5,36H40v2.5A2.5,2.5,0,0,0,42.5,41Z" transform="translate(462 658)" fill="#3b3f45"/>
+      <path id="Path_373" data-name="Path 373" d="M65.5,52h-25a2.5,2.5,0,0,0,0,5h25a2.5,2.5,0,0,0,0-5Z" transform="translate(464 664.5)" fill="#3b3f45"/>
+      <path id="Path_374" data-name="Path 374" d="M65.5,60h-25a2.5,2.5,0,0,0,0,5h25a2.5,2.5,0,0,0,0-5Z" transform="translate(464 666.5)" fill="#3b3f45"/>
+      <path id="Path_375" data-name="Path 375" d="M40.5,49h25a2.5,2.5,0,0,0,0-5h-25a2.5,2.5,0,0,0,0,5Z" transform="translate(464 662.5)" fill="#3b3f45"/>
+    </g>
+  </g>
+</svg>

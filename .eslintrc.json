@@ -1,0 +1,56 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended",
+        "plugin:jsx-a11y/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/recommended",
+        "plugin:testing-library/react"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module",
+        "ecmaVersion": 2018
+    },
+    "plugins": ["react", "@typescript-eslint", "react-hooks", "jsx-a11y", "jest-dom", "testing-library", "emotion"],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "prefer-destructuring": "error",
+        "no-console": ["error", {
+            "allow": ["info", "warn", "error"]
+        }],
+        "react/self-closing-comp": "error",
+        "array-callback-return": "error",
+        "@typescript-eslint/no-unused-vars": [2, {
+            "args": "none"
+        }],
+        "react/prop-types": "off",
+        "@typescript-eslint/no-explicit-any": "error",
+        "prefer-arrow-callback": "error",
+        "emotion/jsx-import": "error",
+        "emotion/no-vanilla": "error",
+        "emotion/import-from-emotion": "error",
+        "emotion/styled-import": "error"
+    }
+}

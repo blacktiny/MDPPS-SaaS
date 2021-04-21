@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #3469c7 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="done_icon">
+		<g id="Ellipse_617">
+			<path id="Layer" class="shp0" d="M10 20C4.47 20 0 15.53 0 10C0 4.47 4.47 0 10 0C15.53 0 20 4.47 20 10C20 15.53 15.53 20 10 20Z" />
+		</g>
+		<path id="Path_2906" class="shp1" d="M8.69 11.28L5.97 8.6L5 9.55L8.69 13.2L15 6.96L14.01 6L8.69 11.28Z" />
+	</g>
+</svg>

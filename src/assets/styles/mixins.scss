@@ -1,0 +1,20 @@
+@import "variables";
+
+@function rem($size) {
+  @return $size / $globalFontSize * 1rem;
+}
+
+html {
+  font-size: ($globalFontSize / 16px) * 100%;
+}
+
+/*Fonts*/
+@mixin font($name, $fontName) {
+  @font-face {
+    font-weight: normal;
+    font-family: $name;
+    font-style: normal;
+    src: url('../fonts/'+$fontName+'.woff2') format('woff2'), url('../fonts/'+$fontName+'.woff') format('woff');
+    font-display: swap;
+  }
+}

@@ -1,0 +1,38 @@
+image: node:10.19.0-alpine
+definitions:
+  testImage: &test
+    name: Build & Test
+    script:
+      - . build_enviroment.sh
+      - yarn install
+      - CI=true yarn test --coverage
+      - yarn build
+      - yarn build-storybook -o ./build-storybook/
+    artifacts:
+      - coverage/**
+      - build/**
+      - build-storybook/**
+  deploy: &deploy
+    name: Deploy
+    image: google/cloud-sdk:285.0.1
+    script:
+      - . build_enviroment.sh
+      - echo $GCLOUD_API_KEYFILE | base64 --decode --ignore-garbage > ./gcloud-api-key.json
+      - gcloud auth activate-service-account --key-file gcloud-api-key.json
+      - gcloud config set project $GCLOUD_PROJECT
+      - gsutil -m rsync -R build/ gs://$STORAGE_URL/
+      - gsutil -m acl ch -r -u AllUsers:R gs://$STORAGE_URL/static
+      - gsutil -m acl ch -u AllUsers:R gs://$STORAGE_URL/manifest.json
+      - gsutil -m acl ch -u AllUsers:R gs://$STORAGE_URL/favicon.ico
+      - gsutil -m rsync -R  coverage/lcov-report gs://delphinus.mdpps.com/frontend-saas
+      - gsutil -m rsync -R  build-storybook/ gs://delphinus.mdpps.com/frontend-saas-storybook
+pipelines:
+  default:
+    - step: *test
+    - step:
+        <<: *deploy
+        trigger: manual
+  branches:
+    '{master,staging,development}':
+      - step: *test
+      - step: *deploy

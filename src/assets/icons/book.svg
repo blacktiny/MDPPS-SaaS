@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" viewBox="0 0 50 60">
+  <g id="book" transform="translate(-1422 -1831)">
+    <g id="nav-brand-style-guide" transform="translate(0 1210)">
+      <g id="Group_3567" data-name="Group 3567" transform="translate(146 -50)">
+        <path id="Path_3168" data-name="Path 3168" d="M30,36V76a2.2,2.2,0,0,0,.087.412c0,.288-.087.55-.087.838A8.75,8.75,0,0,0,38.75,86H77.5A2.5,2.5,0,0,0,80,83.5v-55A2.5,2.5,0,0,0,77.5,26H40A10,10,0,0,0,30,36ZM75,81H38.75a3.75,3.75,0,0,1,0-7.5H75Zm0-12.5H38.75a8.75,8.75,0,0,0-3.75.875V36a5,5,0,0,1,5-5H75Z" transform="translate(1246 645)" fill="#3b3f45"/>
+        <path id="Path_3169" data-name="Path 3169" d="M42.5,51h20A2.5,2.5,0,0,0,65,48.5v-10A2.5,2.5,0,0,0,62.5,36h-20A2.5,2.5,0,0,0,40,38.5v10A2.5,2.5,0,0,0,42.5,51ZM45,41H60v5H45Z" transform="translate(1248.5 647.5)" fill="#3b3f45"/>
+      </g>
+    </g>
+  </g>
+</svg>

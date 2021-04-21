@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="nav-supplier-application" transform="translate(-516 -247)">
+    <g id="Group_2619" data-name="Group 2619" transform="translate(-253 -426)">
+      <path id="Path_380" data-name="Path 380" d="M30.167,76H71.833A4.167,4.167,0,0,0,76,71.833v-25a4.167,4.167,0,0,0-4.167-4.167V38.5a4.167,4.167,0,0,0-4.167-4.167h-.094l.094-4.1A4.167,4.167,0,0,0,63.5,26h-25a4.167,4.167,0,0,0-4.167,4.167v4.167A4.167,4.167,0,0,0,30.167,38.5v4.167A4.167,4.167,0,0,0,26,46.833v25A4.167,4.167,0,0,0,30.167,76ZM38.5,30.167h25l-.062,4.042H38.5ZM34.333,38.5H67.667v4.167H34.333Zm-4.167,8.333H71.833v25H30.167Z" transform="translate(743 647)" fill="#3b3f45"/>
+      <path id="Path_381" data-name="Path 381" d="M46,50H36a2,2,0,0,0-2,2V62a2,2,0,0,0,2,2H46a2,2,0,0,0,2-2V52A2,2,0,0,0,46,50ZM44,60H38V54h6Z" transform="translate(743.471 648.412)" fill="#3b3f45"/>
+      <path id="Path_382" data-name="Path 382" d="M64,50H54a2,2,0,0,0,0,4H64a2,2,0,0,0,0-4Z" transform="translate(744.529 648.091)" fill="#3b3f45"/>
+      <path id="Path_383" data-name="Path 383" d="M64,58H54a2,2,0,0,0,0,4H64a2,2,0,0,0,0-4Z" transform="translate(744.529 648.455)" fill="#3b3f45"/>
+    </g>
+  </g>
+</svg>

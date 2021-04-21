@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="nav-dealer-application" transform="translate(-516 -55)">
+    <g id="Group_2617" data-name="Group 2617" transform="translate(-260 -529)">
+      <path id="Path_377" data-name="Path 377" d="M67.667,26H34.333A8.333,8.333,0,0,0,26,34.333V67.667A8.333,8.333,0,0,0,34.333,76H67.667A8.333,8.333,0,0,0,76,67.667V34.333A8.333,8.333,0,0,0,67.667,26Zm-37.5,8.333a4.167,4.167,0,0,1,4.167-4.167H67.667a4.167,4.167,0,0,1,4.167,4.167v8.333H30.167Zm37.5,37.5H34.333a4.167,4.167,0,0,1-4.167-4.167V46.833H71.833V67.667A4.167,4.167,0,0,1,67.667,71.833Z" transform="translate(750 558)" fill="#3b3f45"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="2" cy="2" r="2" transform="translate(784.364 592.364)" fill="#3b3f45"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="2" cy="2" r="2" transform="translate(792.727 592.364)" fill="#3b3f45"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="2" cy="2" r="2" transform="translate(801.091 592.364)" fill="#3b3f45"/>
+      <path id="Path_378" data-name="Path 378" d="M63.857,52H38.143a2,2,0,1,0,0,4H63.857a2,2,0,1,0,0-4Z" transform="translate(750 559.182)" fill="#3b3f45"/>
+      <path id="Path_379" data-name="Path 379" d="M63.857,60H38.143a2,2,0,1,0,0,4H63.857a2,2,0,1,0,0-4Z" transform="translate(750 559.545)" fill="#3b3f45"/>
+    </g>
+  </g>
+</svg>

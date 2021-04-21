@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="43.243" viewBox="0 0 50 43.243">
+  <g id="eye-disabled" transform="translate(-830.004 -874.379)">
+    <g id="nav-eye" transform="translate(314)">
+      <path id="Path_3180" data-name="Path 3180" d="M26.135,51.482c.271.74,6.959,18.023,24.868,18.023S75.6,52.222,75.872,51.482a2.084,2.084,0,0,0,0-1.459C75.6,49.284,68.912,32,51,32s-24.6,17.284-24.868,18.023A2.084,2.084,0,0,0,26.135,51.482ZM51,36.167c13.242,0,19.274,11.46,20.659,14.585C70.277,53.784,64.141,65.338,51,65.338S31.73,53.878,30.344,50.753C31.73,47.721,37.866,36.167,51,36.167Z" transform="translate(490 846)" fill="#98A0AC"/>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(535 891)" fill="none" stroke="#98A0AC" stroke-width="5">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="8.5" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_1" data-name="Line 1" y1="39" x2="39" transform="translate(835.5 876.5)" fill="none" stroke="#98A0AC" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+body {
+  overflow: auto;
+  overflow-x: hidden;
+
+  .app {
+    height: 100vh;
+  }
+
+  .rs-modal-wrapper {
+    z-index: 52;
+  }
+}

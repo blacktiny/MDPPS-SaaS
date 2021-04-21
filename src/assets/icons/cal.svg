@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="cal" transform="translate(-1401 -888)">
+    <path id="Path_4094" data-name="Path 4094" d="M67.667,30.167H65.583V28.083a2.083,2.083,0,1,0-4.167,0v2.083H53.083V28.083a2.083,2.083,0,1,0-4.167,0v2.083H40.583V28.083a2.083,2.083,0,1,0-4.167,0v2.083H34.333A8.333,8.333,0,0,0,26,38.5V67.667A8.333,8.333,0,0,0,34.333,76H67.667A8.333,8.333,0,0,0,76,67.667V38.5A8.333,8.333,0,0,0,67.667,30.167ZM34.333,34.333h2.083v2.083a2.083,2.083,0,0,0,4.167,0V34.333h8.333v2.083a2.083,2.083,0,0,0,4.167,0V34.333h8.333v2.083a2.083,2.083,0,0,0,4.167,0V34.333h2.083A4.167,4.167,0,0,1,71.833,38.5v4.167H30.167V38.5A4.167,4.167,0,0,1,34.333,34.333Zm33.333,37.5H34.333a4.167,4.167,0,0,1-4.167-4.167V46.833H71.833V67.667A4.167,4.167,0,0,1,67.667,71.833Z" transform="translate(1375 862)" fill="#0f203c"/>
+    <circle id="Ellipse_637" data-name="Ellipse 637" cx="2" cy="2" r="2" transform="translate(1411.455 915.182)" fill="#0f203c"/>
+    <circle id="Ellipse_638" data-name="Ellipse 638" cx="2" cy="2" r="2" transform="translate(1411.455 923.545)" fill="#0f203c"/>
+    <circle id="Ellipse_639" data-name="Ellipse 639" cx="2" cy="2" r="2" transform="translate(1419.818 915.182)" fill="#0f203c"/>
+    <circle id="Ellipse_640" data-name="Ellipse 640" cx="2" cy="2" r="2" transform="translate(1419.818 923.545)" fill="#0f203c"/>
+    <circle id="Ellipse_641" data-name="Ellipse 641" cx="2" cy="2" r="2" transform="translate(1428.182 915.182)" fill="#0f203c"/>
+    <circle id="Ellipse_642" data-name="Ellipse 642" cx="2" cy="2" r="2" transform="translate(1428.182 923.545)" fill="#0f203c"/>
+    <circle id="Ellipse_643" data-name="Ellipse 643" cx="2" cy="2" r="2" transform="translate(1436.545 915.182)" fill="#0f203c"/>
+    <circle id="Ellipse_644" data-name="Ellipse 644" cx="2" cy="2" r="2" transform="translate(1436.545 923.545)" fill="#0f203c"/>
+  </g>
+</svg>

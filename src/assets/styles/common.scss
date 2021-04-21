@@ -1,0 +1,209 @@
+@import "../../assets/styles/variables";
+@import "../../assets/styles/mixins";
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $globalFontSize;
+  font-family: $base_font;
+  background-color: #eff3f5;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  text-align: left;
+  color: #14171a;
+  font-size: 16px;
+  font-weight: $font-medium;
+  line-height: 26px;
+}
+.rs-btn-default {
+  padding: 0;
+  color: #657786;
+  font-weight: $font-bold;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(221, 227, 233, 1);
+}
+.rs-btn-default:active,
+.rs-btn-default:focus,
+.rs-btn-default:active:focus,
+.rs-btn-default:not(.rs-btn-disabled):hover {
+  color: #657786;
+  background: rgba(245, 248, 250, 1);
+}
+.rs-btn-primary {
+  color: #f3f3f4;
+  font-weight: $font-bold;
+  background: rgba(66, 132, 252, 1);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.rs-btn-primary:active,
+.rs-btn-primary:focus,
+.rs-btn-primary:active:focus,
+.rs-btn-primary:not(.rs-btn-disabled):hover {
+  color: #f3f3f4;
+  background: rgba(52, 105, 199, 1);
+}
+
+// .row {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+// }
+
+.App .PhoneInputCountryIcon,
+.App .PhoneInputCountryIconImg {
+  width: 20px;
+  height: 14px;
+  box-shadow: none;
+}
+.App .PhoneInputCountrySelectArrow {
+  width: 6px;
+  height: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+  background: url("../../components/icons/nav-down-arrow-line-small.svg") no-repeat center;
+  transform: rotate(90deg);
+  border: none;
+  opacity: 1;
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+}
+
+
+.App .select__control,
+.App .multiSelect__control {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px 0 20px;
+  background-color: rgba(249, 249, 250, 1);
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.App .multiSelect__control {
+  padding: 0 10px 0 50px;
+}
+.App .select__control:hover,
+.App .multiSelect__control:hover {
+  background-color: rgba(242, 242, 242, 1);
+  border: 1px solid transparent;
+}
+.App .select__control--is-focused,
+.App .multiSelect__control--is-focused {
+  box-shadow: none;
+}
+.App .select__control--is-focused.select__control--menu-is-open,
+.App .multiSelect__control--is-focused.multiSelect__control--menu-is-open {
+  background-color: #fff;
+  box-shadow: 0 0 0 rem(1px) #2684FF;
+}
+.App .select__value-container,
+.App .multiSelect__value-container {
+  padding: 0;
+}
+.App .select__indicator-separator,
+.App .multiSelect__indicator-separator {
+  display: none;
+}
+.App .select__indicator,
+.App .multiSelect__indicator {
+  padding: 0;
+}
+.App .select__menu,
+.App .multiSelect__menu {
+  margin-top: 2px;
+  z-index: 2;
+}
+.App .select__option:hover {
+  color: #4284fc;
+}
+.App .select__option--is-selected,
+.App .select__option--is-selected:hover {
+  color: #fff;
+}
+
+
+.App .multiSelect__multi-value {
+  align-items: center;
+  margin: 1px 3px;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #4284fc;
+  border-radius: 101px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.App .multiSelect__multi-value__label {
+  text-align: left;
+  padding-left: rem(10px);
+  color: #fff;
+  font-size: rem(12px);
+  font-weight: $font-regular;
+  line-height: rem(10px);
+}
+.App .multiSelect__multi-value__remove {
+  padding-right: 6px;
+  padding-left: 0;
+}
+.App .multiSelect__multi-value__remove:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+
+
+/*Modal Window*/
+.rs-modal-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Tooltip */
+.rs-tooltip {
+  .rs-tooltip-inner {
+    padding: 20px;
+    color: #fff;
+    background-color: #1E3E75;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: $font-regular;
+    text-align: left;
+    border-radius: 10px;
+
+    @media only screen and (max-width : 768px) {
+      padding: 10px;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+  }
+
+  &.placement-top-end {
+    .rs-tooltip-arrow {
+      border-top-color: #1E3E75;
+      bottom: -5px;
+      right: 6px;
+    }
+  }
+
+  &.placement-right {
+    .rs-tooltip-arrow {
+      border-right-color: #1E3E75;
+    }
+  }
+}
+
+
+
+
+
+
+
+

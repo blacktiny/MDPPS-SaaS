@@ -1,0 +1,620 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('assets/fonts/Roboto-Light.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-MediumItalic';
+  src: url('assets/fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-BlackItalic';
+  src: url('assets/fonts/Roboto-BlackItalic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('assets/fonts/Roboto-Bold.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-BoldItalic';
+  src: url('assets/fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('assets/fonts/Roboto-Medium.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('assets/fonts/Roboto-Black.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url('assets/fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url('assets/fonts/Roboto-Italic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-ThinItalic';
+  src: url('assets/fonts/Roboto-ThinItalic.woff2') format('woff2'),
+    url('assets/fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('assets/fonts/Roboto-Thin.woff2') format('woff2'),
+    url('assets/fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('assets/fonts/icomoon.eot?6wj6lr');
+  src: url('assets/fonts/icomoon.eot?6wj6lr#iefix') format('embedded-opentype'),
+    url('assets/fonts/icomoon.ttf?6wj6lr') format('truetype'),
+    url('assets/fonts/icomoon.woff?6wj6lr') format('woff'),
+    url('assets/fonts/icomoon.svg?6wj6lr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE900:before {
+  content: '\e900';
+  color: #657786;
+}
+.icon-add:before {
+  content: '\e901';
+}
+.icon-add-user:before {
+  content: '\e902';
+}
+.icon-adn:before {
+  content: '\e903';
+  color: #b6d0fd;
+}
+.icon-arrow-doc:before {
+  content: '\e904';
+}
+.icon-become-dealer:before {
+  content: '\e905';
+  color: #98a0ac;
+}
+.icon-binoculars:before {
+  content: '\e906';
+}
+.icon-book:before {
+  content: '\e907';
+}
+.icon-book-open:before {
+  content: '\e908';
+}
+.icon-brand:before {
+  content: '\e909';
+  color: #657786;
+}
+.icon-brand-manager:before {
+  content: '\e90a';
+  color: #b6d0fd;
+}
+.icon-brand-resume:before {
+  content: '\e90b';
+  color: #b6d0fd;
+}
+.icon-brands:before {
+  content: '\e90c';
+  color: #b6d0fd;
+}
+.icon-building:before {
+  content: '\e90d';
+}
+.icon-bulb:before {
+  content: '\e90e';
+}
+.icon-calendar:before {
+  content: '\e90f';
+}
+.icon-caret:before {
+  content: '\e910';
+}
+.icon-check:before {
+  content: '\e911';
+}
+.icon-check-cir:before {
+  content: '\e912';
+}
+.icon-check-cir-filled .path1:before {
+  content: '\e913';
+  color: rgb(63, 242, 87);
+}
+.icon-check-cir-filled .path2:before {
+  content: '\e914';
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-check-slim:before {
+  content: '\e915';
+}
+.icon-clock-dollar:before {
+  content: '\e916';
+}
+.icon-close:before {
+  content: '\e917';
+}
+.icon-close-light:before {
+  content: '\e918';
+}
+.icon-gift:before {
+  content: '\e919';
+}
+.icon-connect:before {
+  content: '\e91a';
+}
+.icon-connect-network:before {
+  content: '\e91b';
+}
+.icon-contact:before {
+  content: '\e91c';
+}
+.icon-dealer-app:before {
+  content: '\e91d';
+  color: #b6d0fd;
+}
+.icon-doc:before {
+  content: '\e91e';
+}
+.icon-download:before {
+  content: '\e91f';
+}
+.icon-external-link:before {
+  content: '\e920';
+}
+.icon-eye:before {
+  content: '\e921';
+}
+.icon-eye-disabled:before {
+  content: '\e922';
+}
+.icon-filter:before {
+  content: '\e923';
+}
+.icon-flag:before {
+  content: '\e924';
+}
+.icon-folder:before {
+  content: '\e925';
+}
+.icon-gear:before {
+  content: '\e926';
+}
+.icon-grid:before {
+  content: '\e927';
+}
+.icon-heart:before {
+  content: '\e928';
+}
+.icon-holding-company:before {
+  content: '\e929';
+  color: #657786;
+}
+.icon-home:before {
+  content: '\e92a';
+  color: #b6d0fd;
+}
+.icon-i:before {
+  content: '\e92b';
+  color: #fff;
+}
+.icon-i-check:before {
+  content: '\e92c';
+  color: #fff;
+}
+.icon-icon-email:before {
+  content: '\e92d';
+}
+.icon-img:before {
+  content: '\e92e';
+}
+.icon-inbox:before {
+  content: '\e92f';
+}
+.icon-info:before {
+  content: '\e930';
+}
+.icon-integration:before {
+  content: '\e931';
+  color: #b6d0fd;
+}
+.icon-key:before {
+  content: '\e932';
+}
+.icon-layers:before {
+  content: '\e933';
+}
+.icon-link:before {
+  content: '\e934';
+}
+.icon-logo .path1:before {
+  content: '\e935';
+  color: rgb(20, 23, 26);
+}
+.icon-logo .path2:before {
+  content: '\e936';
+  margin-left: -6.6025390625em;
+  color: rgb(20, 23, 26);
+}
+.icon-logo .path3:before {
+  content: '\e937';
+  margin-left: -6.6025390625em;
+  color: rgb(20, 23, 26);
+}
+.icon-logo .path4:before {
+  content: '\e938';
+  margin-left: -6.6025390625em;
+  color: rgb(20, 23, 26);
+}
+.icon-logo .path5:before {
+  content: '\e939';
+  margin-left: -6.6025390625em;
+  color: rgb(66, 132, 252);
+}
+.icon-logo-blue .path1:before {
+  content: '\e93a';
+  color: rgb(59, 63, 69);
+}
+.icon-logo-blue .path2:before {
+  content: '\e93b';
+  margin-left: -7.87890625em;
+  color: rgb(59, 63, 69);
+}
+.icon-logo-blue .path3:before {
+  content: '\e93c';
+  margin-left: -7.87890625em;
+  color: rgb(59, 63, 69);
+}
+.icon-logo-blue .path4:before {
+  content: '\e93d';
+  margin-left: -7.87890625em;
+  color: rgb(59, 63, 69);
+}
+.icon-logo-blue .path5:before {
+  content: '\e93e';
+  margin-left: -7.87890625em;
+  color: rgb(66, 132, 252);
+}
+.icon-logo-blue-mdpps:before {
+  content: '\e93f';
+  color: #1e3e75;
+}
+.icon-logo-mark-blue:before {
+  content: '\e940';
+  color: #4284fc;
+}
+.icon-logo-yellow-white .path1:before {
+  content: '\e941';
+  color: rgb(255, 255, 255);
+}
+.icon-logo-yellow-white .path2:before {
+  content: '\e942';
+  margin-left: -5.2041015625em;
+  color: rgb(255, 255, 255);
+}
+.icon-logo-yellow-white .path3:before {
+  content: '\e943';
+  margin-left: -5.2041015625em;
+  color: rgb(255, 255, 255);
+}
+.icon-logo-yellow-white .path4:before {
+  content: '\e944';
+  margin-left: -5.2041015625em;
+  color: rgb(255, 255, 255);
+}
+.icon-logo-yellow-white .path5:before {
+  content: '\e945';
+  margin-left: -5.2041015625em;
+  color: rgb(255, 234, 140);
+}
+.icon-Logo-yellow-White-ds:before {
+  content: '\e946';
+  color: #fff;
+}
+.icon-map:before {
+  content: '\e947';
+}
+.icon-map-pencil:before {
+  content: '\e948';
+}
+.icon-map-pin:before {
+  content: '\e949';
+}
+.icon-marketplace:before {
+  content: '\e94a';
+  color: #b6d0fd;
+}
+.icon-maze:before {
+  content: '\e94b';
+}
+.icon-menu:before {
+  content: '\e94c';
+}
+.icon-message:before {
+  content: '\e94d';
+}
+.icon-messages-add:before {
+  content: '\e94e';
+}
+.icon-minus:before {
+  content: '\e94f';
+}
+.icon-monitor:before {
+  content: '\e950';
+}
+.icon-my-brands:before {
+  content: '\e951';
+  color: #b6d0fd;
+}
+.icon-my-network:before {
+  content: '\e952';
+  color: #b6d0fd;
+}
+.icon-my-networks:before {
+  content: '\e953';
+  color: #b6d0fd;
+}
+.icon-nav-authorized-dealer-network:before {
+  content: '\e954';
+}
+.icon-nav-check:before {
+  content: '\e955';
+}
+.icon-nav-connections:before {
+  content: '\e956';
+}
+.icon-nav-dealer-application:before {
+  content: '\e957';
+}
+.icon-nav-digital-asset-manager:before {
+  content: '\e958';
+}
+.icon-nav-down-arrow-line:before {
+  content: '\e959';
+}
+.icon-nav-e-commerce:before {
+  content: '\e95a';
+}
+.icon-nav-eye:before {
+  content: '\e95b';
+}
+.icon-nav-home:before {
+  content: '\e95c';
+}
+.icon-nav-insights:before {
+  content: '\e95d';
+}
+.icon-nav-lock:before {
+  content: '\e95e';
+}
+.icon-nav-menu:before {
+  content: '\e95f';
+}
+.icon-nav-network-resources:before {
+  content: '\e960';
+}
+.icon-nav-notifications:before {
+  content: '\e961';
+}
+.icon-nav-phone:before {
+  content: '\e962';
+}
+.icon-nav-plus:before {
+  content: '\e963';
+}
+.icon-nav-product-replicator:before {
+  content: '\e964';
+}
+.icon-nav-rma:before {
+  content: '\e965';
+}
+.icon-nav-sales-manager:before {
+  content: '\e966';
+}
+.icon-nav-settings:before {
+  content: '\e967';
+}
+.icon-nav-supplier-application:before {
+  content: '\e968';
+}
+.icon-nav-tasks:before {
+  content: '\e969';
+}
+.icon-nav-warranty:before {
+  content: '\e96a';
+}
+.icon-notification-read:before {
+  content: '\e96b';
+  color: #98a0ac;
+}
+.icon-paper:before {
+  content: '\e96c';
+}
+.icon-pdf:before {
+  content: '\e96d';
+}
+.icon-pencil:before {
+  content: '\e96e';
+}
+.icon-pin:before {
+  content: '\e96f';
+}
+.icon-portfolio:before {
+  content: '\e970';
+}
+.icon-power-profile:before {
+  content: '\e971';
+  color: #b6d0fd;
+}
+.icon-print:before {
+  content: '\e972';
+}
+.icon-products:before {
+  content: '\e973';
+  color: #b6d0fd;
+}
+.icon-question-square:before {
+  content: '\e974';
+}
+.icon-reload:before {
+  content: '\e975';
+}
+.icon-return:before {
+  content: '\e976';
+}
+.icon-save:before {
+  content: '\e977';
+}
+.icon-search:before {
+  content: '\e978';
+}
+.icon-see:before {
+  content: '\e979';
+  color: #98a0ac;
+}
+.icon-shield:before {
+  content: '\e97a';
+}
+.icon-shirt:before {
+  content: '\e97b';
+}
+.icon-sign:before {
+  content: '\e97c';
+}
+.icon-squig:before {
+  content: '\e97d';
+}
+.icon-stack:before {
+  content: '\e97e';
+}
+.icon-star-filled:before {
+  content: '\e97f';
+}
+.icon-support:before {
+  content: '\e980';
+}
+.icon-switch-accounts:before {
+  content: '\e981';
+  color: #98a0ac;
+}
+.icon-task-manager:before {
+  content: '\e982';
+  color: #b6d0fd;
+}
+.icon-trash:before {
+  content: '\e983';
+}
+.icon-upload:before {
+  content: '\e984';
+}
+.icon-user-female:before {
+  content: '\e985';
+}
+.icon-facebook:before {
+  content: '\ea90';
+}
+.icon-instagram:before {
+  content: '\ea92';
+}
+.icon-twitter:before {
+  content: '\ea96';
+}
+.icon-youtube:before {
+  content: '\ea9d';
+}
+.icon-linkedin2:before {
+  content: '\eaca';
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body,
+* {
+  scrollbar-color: #babac0 #f4f4f4;
+  scrollbar-width: thin;
+}
